@@ -1,19 +1,19 @@
-The jar file is an exectuable, some bugs may be present
+The jar file is an exectuable, some bugs may be present but shouldn't be breaking.
 you must unzip the jar file and run it as a jave program for it to 
-properlly work
+properlly work.
 
 Please noitce, although the program will write "x is done!", it only means the action has finished,
-if any noitces were brought up the compression or decompression probaly didn't take action
+if any noitces/errors were shown, the compression or decompression probaly didn't take action.
 
 Things that may seem like a bug but suprisngly work as planned:
 
 - Compression Done and Decompression done when nothing actually happend - this is 
-a general statement that just means the end of the process, if nothing happend it will usaully pop an alert.
+a general statement that just means 'end of process', if nothing actaully happend it will usaully pop an alert.
 
-- Decompressing a non passworded file with the Guard option on decompresses it as normal - this seems like something that should happen,
+- Decompressing a non passworded file with the 'Guard' option on, decompresses it as normal - this is something that should happen,
 you can open an unlocked door with a key.
 
-- Both files of Guard and not guard version are produced during compression, although it's not good for an end product, it helps debugging.
+- Both files of 'Guard' and not 'Guard' version are produced during compression, although it's not good for an end product, it helps debugging.
 you do not need the LZW file to decompress the Guarded one though.
 
 
